@@ -1,0 +1,19 @@
+$mui-blue : #1fbcd3;
+body{font-family:'Roboto', sans-serif;}
+a{color: $mui-blue }
+h3{padding: 0 20px;}
+.container{padding: 0 10px;}
+.output{padding: 10px 40px 100px 40px;}
+.appbar-span{margin-top:20px; color:#333;}
+.appbar-link{color:white; margin-right:10px; padding: 0 5px;}
+.bottomNavigation{
+    position: fixed !important;
+      bottom: 0;
+    background:$mui-blue;
+    padding: 10px 0;
+    font-size: 15px;
+    margin-top: 20px;
+    button{font-size: 27px !important;}
+    a{text-align:center;}
+    div > div {font-size: 13px !important; padding-top: 4px;}
+}
